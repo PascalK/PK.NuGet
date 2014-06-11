@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PK.NuGet", "Sources\PK.NuGet\PK.NuGet.csproj", "{37FA2046-902A-4C56-8106-0C2D88C0042C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C32AA23-E0AA-44EB-AC85-18D4126D2098}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Release.ps1 = Release.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{46C87103-08C8-4BEC-A8CE-87240491460E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
