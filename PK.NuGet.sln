@@ -18,14 +18,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{46C871
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{37FA2046-902A-4C56-8106-0C2D88C0042C}.Release|AnyCPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
