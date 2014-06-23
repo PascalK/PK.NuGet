@@ -86,4 +86,4 @@ Write-Host $PKNuGetProj.FullName
 #goto :eof
 & $NuGet restore $Solution.FullName
 
-& msbuild /t:Pack /p:Configuration=Release $PKNuGetProj.FullName /p:NuGetExePath=$NuGet /v:diag
+& msbuild /t:Pack /p:Configuration=Release $PKNuGetProj.FullName /p:NuGetExePath=$NuGet

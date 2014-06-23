@@ -9,7 +9,7 @@
     <PackRootDir Condition="'$(PackRootDir)' == '' AND ('$(SolutionDir)' != '' AND '$(SolutionDir)' != '*Undefined*')">$(SolutionDir)Package</PackRootDir>
     <PackRootDir Condition="'$(PackRootDir)' == '' AND ('$(SolutionDir)' == '' OR '$(SolutionDir)' == '*Undefined*')">$(MSBuildProjectDirectory)\..\..\Package</PackRootDir>
     <!--<PackRootDir>$([System.IO.Path]::GetFullPath($(PackRootDir)))</PackRootDir>-->
-    <PackProjectDir Condition="'$(PackProjectDir)'==''">$(PackRootDir)$(MSBuildProjectName)\</PackProjectDir>
+    <PackProjectDir Condition="'$(PackProjectDir)'==''">$(PackRootDir)\$(MSBuildProjectName)\</PackProjectDir>
     <PackProjectSourceDir Condition="'$(PackSourceDirectory)' == ''">$(PackProjectDir)src\</PackProjectSourceDir>
     <PackSymbols Condition="'$(PackSymbols)' == ''">true</PackSymbols>
     <PackCommand Condition="Exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).nuspec')">"$(NuGetExePath)" pack "$(MSBuildProjectDirectory)\$(MSBuildProjectName).nuspec" -OutputDirectory "$(PackRootDir)"</PackCommand>
